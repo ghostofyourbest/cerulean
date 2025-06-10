@@ -1,0 +1,73 @@
+{
+    "request_details": {
+        "request_user_id": "user123",
+        "request_timestamp": "2023-10-01T12:00:00Z",
+        "priority": "high",
+        "test_case?": false
+    },
+    "customer_details": {
+        "customer_type": "business",
+        "regulated?": false
+    },
+    "loan_details": {
+        "currency": "GBP",
+        "loan_amount": {
+            "invoice_value": 15000.0,
+            "invoice_value_net": 13000.0,
+            "invoice_value_vat": 2000.0,
+            "initial_deposit": 2000.0
+        },
+        "initial_deposit": 2000.0,
+        "interest_rate": 0.05,
+        "interest_margin": null,
+        "interest": {
+            "fixed": {
+                "rate": 0.05,
+                "timing": "in_arrears"
+            },
+            "variable": {
+                "rate": null,
+                "reference_rate": null,
+                "floor": null,
+                "ceiling": null,
+                "timing": "in_arrears"
+            }
+        },
+        "repayment_type": "amortizing",
+        "repayment_frequency": "monthly",
+        "term_months": 30,
+        "start_date": "2023-01-01",
+        "repayment_date": 19,
+        "facility": {
+            "limit": 20000.0,
+            "committed?": true
+        }
+    },
+    "fees": [
+        {
+            "name": "documentation fee",
+            "type": "arrangement_fee",
+            "amount": 250.0,
+            "capitalized?": false
+        },
+        {
+            "name": "service fee",
+            "type": "monthly_fee",
+            "amount": 0.001,
+            "frequency": "monthly",
+            "capitalized?": false
+        },
+        {
+            "name": "renewal fee",
+            "type": "facility_fee",
+            "amount": 0.1,
+            "frequency": "monthly",
+            "capitalized?": false
+        },
+        {
+            "name": "option to purchase fee",
+            "type": "terminal_fee",
+            "amount": 10.0
+        }
+    ]
+}

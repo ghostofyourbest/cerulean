@@ -1,0 +1,50 @@
+{
+    "arrangement_fee": {
+        "mandatory_parameters": {
+            "frequency": "one_time",
+            "timing": "in_advance",
+            "basis": "fixed"
+        },
+        "default_parameters": {
+            "frequency": "one_time",
+            "timing": "commencement",
+            "capitalized": false
+        }
+    },
+    "monthly_fee": {
+        "mandatory_parameters": {
+            "frequency": "one_time",
+            "timing": "in_advance",
+            "basis": "fixed"
+        },
+        "default_parameters": {
+            "frequency": "one_time",
+            "timing": "commencement",
+            "capitalized": false
+        }
+    },
+    "facility_fee": {
+        "mandatory_parameters": {
+            "frequency": "one_time",
+            "timing": "in_advance",
+            "basis": "fixed"
+        },
+        "default_parameters": {
+            "frequency": "one_time",
+            "timing": "commencement",
+            "capitalized": false
+        }
+    },
+    "terminal_fee": {
+        "mandatory_parameters": {
+            "frequency": "one_time",
+            "timing": "in_advance",
+            "basis": "fixed"
+        },
+        "default_parameters": {
+            "frequency": "one_time",
+            "timing": "commencement",
+            "capitalized": false
+        }
+    }
+}
